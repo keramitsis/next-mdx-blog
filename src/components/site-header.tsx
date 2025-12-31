@@ -15,7 +15,7 @@ export default function SiteHeader() {
       <div className="container flex h-16 max-w-screen-2xl items-center justify-between">
         <div className="flex items-center space-x-3">
           <Link href="/" className="flex items-center space-x-3 text-primary">
-            <Icons.logo className="size-12" />
+            <Icons.logo className="size-9" />
             <span className="font-bold">{siteConfig.name}</span>
           </Link>
         </div>
